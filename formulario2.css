@@ -59,8 +59,16 @@ fieldset.group .field {
     margin-right: 1em;
 }
 
-.field input[type="text"], .field input[type="email"], .field select, .field textarea {
+.field input[type="text"], .field select, .field textarea {
     padding: 0.2em;
+    border: 1px solid blue;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.field input[type="email"] {
+    padding: 0.2em;
+    width: 200px;
     border: 1px solid blue;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     display: block;
